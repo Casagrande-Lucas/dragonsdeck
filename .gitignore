@@ -1,0 +1,57 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of the `go build` command
+/build/
+bin/
+out/
+
+# Vendor directory (if you're using Go Modules)
+vendor/
+
+# Dependency directories (for vendored dependencies)
+Godeps/
+
+# Go workspace
+/logs
+*.log
+*.cache
+*.tmp
+
+# Configuration files
+.env
+.env.local
+.env.test
+.env.production
+config.yaml
+config_local.yaml
+config_test.yaml
+config_production.yaml
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# User-specific files
+*.iml
+*.ipr
+*.iws
+
+# Cover profile files
+*.out
+
+# Generated documentation
+*.docgen
+*.godoc
